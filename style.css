@@ -35,6 +35,8 @@
 background-color:#39DB4A;
 padding:10px 20px;
 border-radius:15px;
+color:white;
+border:2px transparent;
 }
 .nav{
     font-size:30px;
@@ -90,8 +92,9 @@ grid-template-rows: 75% auto;
 }
  .stwo-1 img{
     position: relative;
-    bottom: 90px;
+    bottom: 110px;
     left: -20px;
+    
 } 
 .stwo-2{
     display: grid;
@@ -104,7 +107,7 @@ grid-template-rows: 75% auto;
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 120px;
+    bottom: 118px;
     background-color: #FFFFFF;
      border-radius: 15%;
     border:3px transparent black;
@@ -133,12 +136,17 @@ grid-template-rows: 75% auto;
    
 
 }
-.img11div{
+/* .img11div{
     padding:15px;
 }
 .img11div img{
     border-radius: 15%;
-}
+
+} */
+
+
+
+
 .stwo-2-11-1{
     
     padding:15px;
@@ -175,7 +183,7 @@ grid-template-rows: 75% auto;
 .order{
 border: 2px transparent;    
 background-color: #39DB4A;
-
+color: white;
 padding:10px 20px;
 border-radius:15px;
 
@@ -217,6 +225,7 @@ border-radius:15px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap:10px;
 
 }
 .ts-3-2{
@@ -228,6 +237,7 @@ border-radius:15px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap:10px;
 }
 .ts-3-3{
     border:5px transparent black;
@@ -238,7 +248,7 @@ border-radius:15px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+    gap:10px;
     
 }
 .ts-3-4{
@@ -250,9 +260,10 @@ border-radius:15px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap:10px;
 }
-.img1div{
-
+.imgtrdiv{
+    background-color: #C1F1C6;
     border: 3px transparent #0d52d6;
     padding: 15px;
     border-radius: 50%;
@@ -260,7 +271,22 @@ border-radius:15px;
     height: 100px; 
     display: flex;
     justify-content: center;
-    align-items: center; /* Optional for centering content inside */
+    align-items: center; 
+
+}
+
+
+
+.img1div{
+    border: 3px transparent #0d52d6;
+    padding: 15px;
+    border-radius: 50%;
+    width: 100px;  
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* Optional for centering content inside */
 }
 .img2div{
     background-color: #C1F1C6;
@@ -306,6 +332,7 @@ border-radius:15px;
     grid-template-rows: 100px 150px 300px;
     grid-template-columns:  1fr;
     gap:10px;
+    
 
 }
 .fs-1{
@@ -339,6 +366,7 @@ border-radius:15px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap:15px;
 
 }
 .fs-3-2{
@@ -350,6 +378,7 @@ border-radius:15px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap:15px;
 }
 .fs-3-3{
     border:5px transparent black;
@@ -360,6 +389,7 @@ border-radius:15px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap:15px;
 
 } 
  .img5div{
@@ -469,7 +499,7 @@ border-radius:15px;
     display: grid;
     grid-template-rows: 10% 25% 25% auto;
     grid-template-columns: 1fr;
-    padding-top: 100px;
+    padding-top: 50px;
    
 }
 .firstone {
@@ -502,7 +532,7 @@ border-radius:15px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color:#39DB4A;
+    color:#5FE26C;
     gap:20px;
     word-wrap:break-word;
 }
@@ -515,7 +545,7 @@ border-radius:15px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color:#39DB4A;
+    color:#5FE26C;
     gap:20px;
 
 }.s-secondthree{
@@ -527,7 +557,7 @@ border-radius:15px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color:#39DB4A;
+    color:#5FE26C;
     gap:20px;
 }.s-secondfour{
     border:5px transparent black;
@@ -538,7 +568,7 @@ border-radius:15px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color:#39DB4A;
+    color:#5FE26C;
     gap:20px;
 }
 .seventhslide{
@@ -612,6 +642,9 @@ border-radius:15px;
     display: flex;
     gap:150px;
 }
+.footer .footertwo h3{
+    color: #555555;
+}
 
 .ffirst{
     border: 3px transparent #0d52d6;
@@ -638,15 +671,17 @@ border-radius:15px;
 .four{
     display: flex;
     /* background-color: red; */
-    gap: 50px;
+   
 }
 .four-1{
     display: flex;
     /* background-color: #0d52d6; */
     height:100px;
-    width: 300px;
-    
-    
+    width: 300px; 
+}
+.four-2{
+    margin-top: 15px;
+    margin-right: 25px;
 }
 .ff1{
     background-color: #fcfcfc;
@@ -741,7 +776,7 @@ color:  #6F6E6E;
     width:50px;
 }
 .bbtn button{
-    border:2px transparent white;
+    border:2px transparent ;
     background-color:#39DB4A;
     padding:10px 20px;
     border-radius:15px;
@@ -774,6 +809,80 @@ color:  #6F6E6E;
     font-size: 20px;;
 
 }
+.six-second .s-secondone h3{
+    color:#90BD95;
+    font-size: 15px;
+}
+.six-second .s-secondtwo h3{
+    color:#90BD95;
+    font-size: 15px;
+}
+.six-second .s-secondthree h3{
+    color:#90BD95;
+    font-size: 15px;
+}
+.six-second .s-secondfour h3{
+    color:#90BD95;
+    font-size: 15px;
+}
+.fourtslide{
+    margin-top: 100px;
+}
+.secondslide{
+    margin-top: 40px;
+}
+.seventhslide{
+    margin-top: 50px;
+}
+.footer{
+    margin-top: 40px;
+}
+.a{
+    display: flex;
+   gap:80px;
+}
+ .a2{
+    display: flex;
+    gap:10px;
+} 
+.b{
+    display: flex;
+   gap:80px;
+}
+ .b2{
+    display: flex;
+    gap:10px;
+} 
+.c{
+    display: flex;
+   gap:80px;
+}
+ .c2{
+    display: flex;
+    gap:10px;
+} 
+.fs-3-1 h4{
+   color: #555555; 
+}
+.fs-3-2 h4{
+    color: #555555; 
+}
+.fs-3-3 h4{
+    color: #555555;
+}
+.ts-3-1 h4{
+    color: #555555;
+}
+.ts-3-2 h4{
+    color: #555555;
+}
+.ts-3-3 h4{
+    color: #555555;
+}
+.ts-3-4 h4{
+    color: #555555;
+}
+
 
 
 
