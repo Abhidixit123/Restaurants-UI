@@ -1,11 +1,12 @@
     *{
     margin:0px;
     padding:0px;
+    box-sizing: border-box;
 } 
 .wrapper{
     width:1280px;
     margin:auto;
-    background-color: #fcfcfc;
+    background-color: #fcfcfc; 
     display: flex;
     flex-direction: column;
     gap:15px;
@@ -211,7 +212,7 @@ border-radius:15px;
 .ts-3{
     display:grid;
 
-    grid-template-rows: 1fr;
+    /* grid-template-rows: 1fr; */
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap:20px;
     border:5px transparent black;
@@ -484,7 +485,7 @@ border-radius:15px;
     /* justify-content: space-between; */
 }
 .one{
-    color: red;
+    color: #FF6868;
 }
 .sixthslide{
     display: grid;
@@ -770,10 +771,13 @@ color:  #6F6E6E;
     background-color: #39DB4A;
     color: white;
     border: 3px transparent #0d52d6;
-    padding: 15px;
+     padding: 18px; 
     border-radius: 50%;
-    height:45px;
-    width:50px;
+    height:50%;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .bbtn button{
     border:2px transparent ;
@@ -882,6 +886,335 @@ color:  #6F6E6E;
 .ts-3-4 h4{
     color: #555555;
 }
+ 
+@media screen and (max-width: 768px) {
+     /* *{
+        margin: 0px;
+        padding: 0px;
+        background-color: #39DB4A;
+     }
+     .wrapper{
+        width: 100%;
+        height: auto;
+     }
+     .header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #FF6868;
+
+     } */
+    .ts-3{
+        grid-template-columns: 1fr 1fr;
+        gap:15px;
+    }
+    .ts-1{
+        font-size: 18px;
+    }
+    .ts-2{
+        font-size: 30px;
+    }
+    .imgtrdiv,.img2div,.img3div,.img4div{
+        width:80px;
+        height:80px;
+    }
+    .fs-3{
+        grid-template-columns: 1fr 1fr;
+        gap:15px;
+    }
+    .fs1{
+        font-size: 18px;
+    }
+    .fs-2{
+        font-size: 30px;
+    }
+    .img5div .img6div .img7div{
+        width:80px;
+        height:80px;
+    }
+    .fifthslide{
+        grid-template-columns: 1fr;
+        display: flex;
+        gap:40px;
+        
+    }
+    .fifthslide .ffirst  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .fsecond one{
+        font-size: 18px;
+    }
+    .fsecond two{
+        font-size: 30px;
+    }
+    .fsecond three{
+        font-size:12px;
+    }
+   
+
+
+}
+@media screen and (max-width: 480px) {
+   .header{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+   }
+   .ul{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-size:30px;
+   }
+   .nav{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-size: 30px;
+    margin-right: 20px;
+   }
+   .nav .btn{
+    height:100%;
+    width:100%;
+   }
+   .secondslide{
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin-top: 135px; 
+    height:700px; 
+
+   }
+   .sone .sone-1{
+    font-size: 70px;
+   }
+   .sone-2{
+    font-size: 45px;
+   }
+   .sone-3{
+    font-size: 55px;
+    display: flex;
+    gap:15px;
+   }
+   .sone-3 .three-3{
+    margin-top: 10px;
+   }
+   .sone{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+   }
+   /* .stwo-1{
+    width:60%;
+    height:80%;
+   } */
+   
+
+
+   
+   .thirdslide{
+    height:1200px;
+    width: auto;
+    margin-top:75px;
+   }
+   
+    .ts-3 {
+        grid-template-columns: 1fr; /* 1 column on mobile */
+        gap: 10px;
+        font-size: 25px;
+    }
+     .ts-3-1{
+        padding:50px;
+    }
+    .ts-3-2{
+        padding:50px;
+    }
+    .ts-3-3{
+        padding:50px;
+}    
+.ts-3-4{
+    padding:50px;
+}     */
+
+/* .ts-3-1{
+        height:50px;
+        width: auto;
+    } */
+
+    .ts-1 {
+        font-size: 40px;
+        height:55px;
+        width:auto;
+    }
+
+    .ts-2 {
+        font-size: 40px;
+    }
+
+    .imgtrdiv, .img2div, .img3div, .img4div {
+        width: 80px;
+        height: 80px; /* Further adjust image size */
+    }
+    .fs-3{
+        grid-template-columns: 1fr ;
+        gap:15px;
+    }
+    .fs-1{
+        font-size: 30px;
+    }
+    .fs-2{
+        font-size: 40px;
+    }
+    .fs-3{
+        font-size: 20px;
+    }
+    .img5div .img6div .img7div{
+        width: 80px;
+        height: 80px;
+      
+    }
+    .fourthslide{
+        height:800px;
+        width: auto;
+       
+      
+       }
+       .fs-3-1{
+        padding:50px;
+       }
+       .fs-3-2{
+        padding: 50px;
+       }
+       .fs-3-3{
+        padding:50px;
+       }
+      
+    
+  .fifthslide{
+        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:50px;
+        margin-top: 540px; 
+        height:1300px; 
+    } 
+    .ffirst{
+        margin-top: 540px;
+         width:60%;
+        height:80%; */
+    } 
+    .fsecond{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:30px;
+    }
+    .fsecond .one{
+        font-size: 30px;
+    }
+    .fsecond .two{
+        font-size:30px
+    }
+    .fsecond .three{
+        font-size: 20px;
+    }
+   
+    .sixthslide{
+        grid-template-columns: 1fr ;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        gap:70px;
+        margin-top: 400px; 
+        height:700px; 
+
+    }
+    .six-first{
+        gap:30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .six-first .firstone{
+        font-size: 30px;
+    }
+    .six-first .firstwo{
+        font-size: 35px;
+
+    }
+    .six-first .firsthree{
+        font-size: 20px;
+    }
+    .six-second{
+        grid-template-columns: 1fr 1fr;
+        gap:10px;
+        /* height:80%;
+        width:80%; */
+    }
+    .seventhslide{
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:70px;
+        margin-top: 400px; 
+        height:700px; 
+
+    }
+    .footer{
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:70px;
+        margin-top: 50px; 
+        height:700px; 
+
+    }
+    .sevenone p{
+        font-size: 30px;
+    }
+    .seventwo ol  li{
+        font-size: 30px;
+    }
+    .seventhree ol li{
+        font-size: 30px;
+    }
+    .sevenfour ol li{
+        font-size:30px;
+    }
+    .footertwo{
+        font-size: 30px;
+    }
+    .fsecond .three p{
+        font-size: 25px;
+    }
+   .six-first .firstthree p{
+        font-size: 25px;
+    }
+    .thirdslide .ts-1{
+        font-size: 35px;
+    }
+
+
+}
+ 
 
 
 
@@ -976,4 +1309,4 @@ color:  #6F6E6E;
         grid-template-columns: 1fr 1fr;
     }
 }
- */
+ */ 
